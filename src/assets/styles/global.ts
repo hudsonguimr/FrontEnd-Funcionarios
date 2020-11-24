@@ -1,0 +1,24 @@
+import { createGlobalStyle } from 'styled-components';
+
+export default createGlobalStyle`
+  * {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+  }
+
+  body {
+    font: 16px 'Roboto' sans-serif;
+    background: #ececec;
+    width: 100vw;
+    min-height: 100vh;
+  }
+
+  #app {
+    width: 100%;
+    min-height: 100vh;
+
+    margin: 0 auto;
+  }
+`;
